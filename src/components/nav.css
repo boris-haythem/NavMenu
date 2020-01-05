@@ -1,0 +1,18 @@
+.navbar{
+    display:flex;
+    list-style: none;
+}
+.dropmenu{
+    list-style: none;
+    display: none;
+}
+.navbar>li:hover .dropmenu{
+    color:red;
+    display: block;
+}
+.navbar>li{
+    margin:20px;
+}
+.dropmenu>li{
+    margin-top: 10px;
+}
